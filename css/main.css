@@ -10,3 +10,10 @@
   *display: inline;
   zoom: 1;
 }
+
+#links a:last-child:after {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-size: 0;
+}
