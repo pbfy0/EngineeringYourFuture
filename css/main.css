@@ -1,0 +1,12 @@
+#links {
+  width: 100%;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+#links a {
+  margin: 0 15px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
