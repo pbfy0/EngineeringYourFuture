@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<title>{{ page.title }}</title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" href="css/main.css" />
-		{% if page.stylesheet %}<link rel="stylesheet" href="css/{{ page.stylesheet }}" />{% endif %}
-		{% if page.script %}<script type="text/javascript" src="js/{{ page.script }}"></script>{% endif %}
-	</head>
-	<body>
-		<header>
-			<div id="title">{{ page.title }}</div>
-			<div id="links">
-				<a href="timeline.html">Timeline</a>
-			</div>
-		</header>
-		{{ content }}
-	</body>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css" />
+    {% if page.stylesheet %}<link rel="stylesheet" href="css/{{ page.stylesheet }}" />{% endif %}
+    {% if page.script %}<script type="text/javascript" src="js/{{ page.script }}"></script>{% endif %}
+  </head>
+  <body>
+    <header>
+      <div id="title">{{ page.title }}</div>
+      <div id="links">
+        <a href=".">⌂</a>
+        <a href="aerospace.html">Aerospace Engineering</a>
+        <a href="chemical.html">Chemical Enginering</a>
+        <a href="genetic.html">Genetic Engineering</a>
+        <a href="nano.html">Nano Engineering</a>
+        <a href="sports.html">Sports Engineering</a>
+        <a href="references.html">Further Reading</a>
+      </div>
+    </header>
+    {{ content }}
+  </body>
 </html>
