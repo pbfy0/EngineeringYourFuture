@@ -11,7 +11,8 @@
   zoom: 1;
 }
 
-#links a:last-child:after {
+#links a:after {
+  content: '';
   width: 100%;
   display: inline-block;
   font-size: 0;
