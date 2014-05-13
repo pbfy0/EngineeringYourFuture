@@ -3,6 +3,7 @@
   text-align: justify;
   -ms-text-justify: distribute-all-lines;
   text-justify: distribute-all-lines;
+  position: relative;
 }
 #links a {
   margin: 0 15px;
